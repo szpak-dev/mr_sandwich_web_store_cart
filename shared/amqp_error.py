@@ -1,0 +1,6 @@
+class AmqpError(BaseException):
+    ...
+
+
+class AmqpDefinitionBuilderError(AmqpError):
+    ...
